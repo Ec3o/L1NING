@@ -1,2 +1,2 @@
 # L1NING
-A personal customized platform for college student
+个人集成事务操作终端
