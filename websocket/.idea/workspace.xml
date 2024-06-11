@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92bc37a5-903a-49de-93f4-55e1484823b2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../BackEnd/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/.idea/BackEnd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/cet-4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/desJs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/desJs_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/example/hdqg/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/example/hduhelp/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/example/ihdu/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/example/newjw/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/example/skl/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/hdqglogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/hduhelplogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/ihdulogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/newjwlogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/passwordLogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/passwordLogin_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/qrCodeLogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/qrCodeLogin_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/requestCli.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/skllogin.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/thirdapplogin_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/tool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/hducashelper/util/request/redirectFunc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/models/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/nethandlers/nethandles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/answer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414000252.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414152156.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414153649.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414162028.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414164123.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414164800.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414165342.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414171020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414172751.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240414173042.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240415100328.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240415100514.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240415100734.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240415152105.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240415152309.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240415153524.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240519185944.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240521000050.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240521002101.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528105307.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528152430.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528154113.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528214601.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528214813.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528215019.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/papers/paper_20240528215941.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/sso/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/sso/ecb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/test/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/ui/ui.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/WordKiller/wordhandlers/wordhandles.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/sunnysport.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/actionmodules/wordkiller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/cet-4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/controllers/controllers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/io/io.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/models/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/models/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/routers/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/todos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackEnd/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/l1ning/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/l1ning/src/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.22.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2h66FEyWpQhWfT6VNqOehJcFa1r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/kevin/Desktop/Projects/L1NING/websocket",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.17011.92" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.17011.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

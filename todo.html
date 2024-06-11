@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="todo" id="todo">11111</div>
+</body>
+<script>
+    const div = document.getElementById('todo');
+    div.addEventListener('click', (target) => {
+        const classArr = target.currentTarget.className.split(' ');
+        if (classArr.length > 1) {
+            target.currentTarget.className = 'todo'
+        } else {
+            target.currentTarget.className = 'todo done'
+        }
+    })
+</script>
+<style>
+    .todo {
+        margin-left: 20px;
+    }
+
+    .todo:before {
+        content: " ";
+        display: inline-block;
+        line-height: normal;
+        font-size: 16px;
+        border: 1px solid black;
+        border-radius: 4px;
+        background-position: 50%;
+        white-space: normal;
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        margin-left: -24px;
+        box-sizing: border-box !important;
+        position: relative;
+        cursor: pointer;
+        pointer-events: auto;
+        top: 2px;
+    }
+
+    .todo:hover:before {
+        border: 1px solid rgb(100, 149, 237);
+    }
+
+    .done {
+        text-decoration: line-through;
+    }
+
+    .done::before {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjU4OSAzLjkwM2wuODA4LjgwOGEuMzUuMzUgMCAwMTAgLjQ5NUw2LjE4IDEwLjQyNWEuMzUuMzUgMCAwMS0uNDk1IDBMMi43MDMgNy40NDRhLjM1LjM1IDAgMDEwLS40OTVsLjgwOC0uODA4YS4zNS4zNSAwIDAxLjQ5NSAwbDEuOTI1IDEuOTI0IDQuMTYzLTQuMTYzYS4zNS4zNSAwIDAxLjQ5NSAweiIgZmlsbD0iIzMzNzBGRiIvPjwvc3ZnPg==);
+    }
+</style>
+
+</html>

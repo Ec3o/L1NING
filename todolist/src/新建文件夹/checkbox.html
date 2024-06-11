@@ -1,0 +1,95 @@
+<svg id="svg" width="400" height="400" onclick="toggleCheck()">
+  <circle id="circle" fill="grey" stroke="black" stroke-width="20" cx="200" cy="200" r="190" stroke-linecap="round" transform="rotate(-90 200 200)"/>
+  <polyline id="tick-border" fill="none" stroke="black" stroke-width="32" points="88,214 173,284 304,138" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline id="tick" fill="none" stroke="white" stroke-width="24" points="88,214 173,284 304,138" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+<style>
+:root {
+  --size: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#circle {
+  stroke-dasharray: parseFloat((--size))/8;/* size/4 */
+  stroke-dashoffset: 119.4;/* 11.94*size/4 */
+  transition: stroke-dashoffset 1s ease-in-out, fill 0.5s ease-in-out;
+}
+
+#tick, #tick-border {
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  transition: stroke-dashoffset 0.8s ease-out;
+}
+
+#svg {
+  transition: transform 1s ease-in-out;
+}
+
+.checked #circle {
+  stroke-dasharray: 120;/* 3*size */
+  stroke-dashoffset: 0;
+  fill: green;
+}
+
+.checked #tick, .checked #tick-border {
+  stroke-dashoffset: 0;
+}
+
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const size = getComputedStyle(document.documentElement).getPropertyValue('--size').trim();
+    console.log('size:', size); // 调试输出
+    
+    const svg = document.getElementById('svg');
+    const circle = document.getElementById('circle');
+    const tick = document.getElementById('tick');
+    const tickBorder = document.getElementById('tick-border');
+    
+    svg.setAttribute('width', size);
+    svg.setAttribute('height', size);
+    
+    const strokeWidth = parseFloat(size) / 20;
+    circle.setAttribute('stroke-width', strokeWidth);
+    circle.setAttribute('cx', parseFloat(size) / 2);
+    circle.setAttribute('cy', parseFloat(size) / 2);
+    circle.setAttribute('r', parseFloat(size) / 2 - strokeWidth / 2);
+    circle.setAttribute('transform', `rotate(-90 ${parseFloat(size) / 2} ${parseFloat(size) / 2})`);
+    circle.setAttribute('stroke-dasharray', parseFloat(size) / 4); // 调试输出
+    console.log('circle stroke-dasharray:', parseFloat(size) / 4); // 调试输出
+    circle.setAttribute('stroke-dashoffset', 11.94 * parseFloat(size) / 4);
+    
+    const tickStrokeWidth = parseFloat(size) / 16.67;
+    tick.setAttribute('stroke-width', tickStrokeWidth);
+    tickBorder.setAttribute('stroke-width', tickStrokeWidth + 4); // 增加边框宽度
+    const points = `${parseFloat(size) * 0.22},${parseFloat(size) * 0.54} ${parseFloat(size) * 0.43},${parseFloat(size) * 0.71} ${parseFloat(size) * 0.76},${parseFloat(size) * 0.34}`;
+    tick.setAttribute('points', points);
+    tickBorder.setAttribute('points', points);
+  
+    // 切换选中状态的函数
+    function toggleCheck() {
+      if (svg.classList.contains('checked')) {
+        circle.setAttribute('stroke-dasharray', parseFloat(size) / 4);
+        circle.setAttribute('stroke-dashoffset', 11.94 * parseFloat(size) / 4);
+        circle.setAttribute('fill', 'grey');
+      } else {
+        circle.setAttribute('stroke-dasharray', 3 * parseFloat(size));
+        circle.setAttribute('stroke-dashoffset', 0);
+        circle.setAttribute('fill', 'green');
+      }
+      svg.classList.toggle('checked');
+    }
+  
+    // 将toggleCheck函数添加到window对象中，以便onclick属性可以访问
+    window.toggleCheck = toggleCheck;
+  });
+  </script>
